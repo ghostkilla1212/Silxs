@@ -21,3 +21,19 @@ body {
     padding-left: 2%; /*rand rechts 2 prozent verschoben*/
     width: 150px; /*breite des logos ist 128 px*/
 }
+
+h1 {
+color: gray;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    background: gray;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 15px;
+    top: 100%;
+    left: 33%;
+    margin-top: 10px;
+}

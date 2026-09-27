@@ -5,19 +5,14 @@
   }
 
   .header {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 0;
-    padding: 16px 0;
+    position: absolute; /*damit es absolute bleibt*/
+    width: 100%; /*breite fur mobile*/
+    padding: 1px 0; /*abstand grose*/
   }
 
   .logo {
-    display: block;
-    padding-left: 0;
-    margin: 0 auto;
-    width: 110px;
+    padding-left: 1; /*rand abstand links*/
+    width: 110px; /*logo breite*/
   }
 }
 

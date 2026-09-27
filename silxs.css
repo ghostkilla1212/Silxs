@@ -8,17 +8,15 @@ body {
 
 .header {
     background: linear-gradient(135deg, rgba(128, 128, 128, 0.74), #1e1e1e); /*header hintergrund farbe*/
-    position: absolute; /*damit das absoloye bleibt*/
+    position: absolute; /*damit das absolote bleibt*/
     top: 0%; /*damit es am rand klebt*/
     left: 0%; /*damit die ecken am rand bleiben*/
     width: 122%; /*die breite von header*/
-    height: 10%; /*die grose des header*/
+    height: 13%; /*die grose des header*/
 }
 
 
 .logo {
-  padding-left: 13%;
-  width: 128px;
-  height: auto;
-  object-fit: contain;
+    padding-left: 2%; /*rand rechts 2 prozent verschoben*/
+    width: 128px; /*breite des logos ist 128 px*/
 }

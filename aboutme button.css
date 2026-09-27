@@ -1,0 +1,17 @@
+button {
+    background-color: gray;
+    color: white;
+    font-size: 100%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 3%;
+    position: relative;
+    top: -35px;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+

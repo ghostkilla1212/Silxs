@@ -3,6 +3,7 @@ body {
   min-height: 100vh;   /*entfernt den rand */
   /* Verläuft von tiefem Schwarz (#000000) zu einem sehr dunklen Grau (#1e1e1e) */
   background: linear-gradient(135deg, #000000, #1e1e1e);
+  background-attachment: fixed; /*sorgt dafur dass bei mobile kein zweiter hintergrund kommt*/
 }
 
 
@@ -18,5 +19,5 @@ body {
 
 .logo {
     padding-left: 2%; /*rand rechts 2 prozent verschoben*/
-    width: 128px; /*breite des logos ist 128 px*/
+    width: 150px; /*breite des logos ist 128 px*/
 }

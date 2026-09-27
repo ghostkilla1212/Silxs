@@ -12,7 +12,12 @@
 
   .logo {
     padding-left: 1; /*rand abstand links*/
-    width: 110px; /*logo breite*/
+    width: 130px; /*logo breite*/
   }
 }
 
+@media (max-width: 768px) {  /*zeigt kein bild an bei mobile*/
+    button img {
+        display: none;
+    }
+}

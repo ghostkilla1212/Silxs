@@ -1,17 +1,22 @@
 button {
-    background-color: gray;
+    background-color: #0000;
     color: white;
-    font-size: 100%;
-    border: 1px solid gray;
+    border: 1px solid #0000;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 3%;
+    margin-left: 1%;
     position: relative;
-    top: -35px;
+    top: -30px;
 }
 
 button:hover {
     border: 2px solid black;
 }
+
+img {
+    width: 150px;
+}
+
+
 
 

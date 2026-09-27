@@ -1,6 +1,6 @@
-const AboutMe = document.getElementById('AboutMe');
+const AboutMe = document.getElementById('AboutMe'); // button wird angesprochen
 
-AboutMe.addEventListener('click', function() {
+AboutMe.addEventListener('click', function() { // sorgt dafur dass der button funktoniert
   window.open('https://about-me-ashy-eight.vercel.app/', '_blank');
 
 });

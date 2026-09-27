@@ -1,20 +1,19 @@
 button {
-    background-color: #0000;
-    color: white;
-    border: 1px solid #0000;
-    border-radius: 50%;
+    background-color: #0000; /*button hintergrund farbe*/
+    border: 1px solid #0000; /*border rand ausen*/
+    border-radius: 50%; /*runde ecken*/
     cursor: pointer;
-    margin-left: 1%;
+    margin-left: 1%; /*abstand rand nach links*/
     position: relative;
-    top: -30px;
+    top: -30px; /*sorgt dafur das es in der mitte oder wo anders positoniert ist*/
 }
 
 button:hover {
-    border: 2px solid black;
+    border: 2px solid black; /*damit es ausen schwarz ist*/
 }
 
 img {
-    width: 150px;
+    width: 150px; /*bild breite*/
 }
 
 

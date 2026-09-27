@@ -1,12 +1,12 @@
-const searchBar = document.getElementById("gsearch"); // suchfeld geholt
-const searchButton = document.querySelector(".search-button");
-const popup = document.getElementById("popup")
+const searchBar = document.getElementById("gsearch"); // suchfeld geholt von html
+const searchButton = document.querySelector(".search-button"); // sucht nach den element in der css klasse
+const popup = document.getElementById("popup") //sucht ein element popup
 
-searchButton.addEventListener("click", () => {
-popup.textContent = searchBar.value
-popup.style.display = "block";
+searchButton.addEventListener("click", () => { // wenn der suchbutton angeklicht wird fuhre den code aus
+popup.textContent = searchBar.value // was steht grade im suchfeld
+popup.style.display = "block"; // popup wird sichbar
+RecentlySearched.style.display = "block"; // sichbar
 });
 
-const RecentlySearched = document.createElement("RecentlySearche");
-RecentlySearched.textContent = "RecentlySearched";
+
 

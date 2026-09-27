@@ -25,6 +25,13 @@
 
 @media (max-width: 768px) {
     .search-bar{
-    display: none !important;
+    display: none !important; /*zeigt die searchbar auf handy nicht an*/
     }
+}
+
+
+@media (max-width: 768px) {
+ #myMenu {
+   
+ }
 }

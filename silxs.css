@@ -23,7 +23,13 @@ body {
 }
 
 h1 {
-color: gray;
+color: gray; /*farbe von der schrift*/
+position: relative; /*position egal*/
+    top: -100px; /*100px nach oben*/
+}
+
+#RecentlySearched { /*style fur die schrift die weg geht*/
+    display: none;
 }
 
 #popup {

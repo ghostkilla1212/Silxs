@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  body {
+     background: linear-gradient(135deg, #000000, #1e1e1e); /*hintertgrund mobile header */
+    background-attachment: fixed; /*sorgt dafur dass bei mobile kein zweiter hintergrund kommt*/
+  }
+
+  .header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    padding: 16px 0;
+  }
+
+  .logo {
+    display: block;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 110px;
+  }
+}
+

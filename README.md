@@ -9,3 +9,4 @@ slixs is an Amazon clone that looks almost exactly like Amazon, but is actually 
 
 
 ### Note
+You can't add anything or buy it—this is just a clone.

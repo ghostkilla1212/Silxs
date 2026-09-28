@@ -25,7 +25,8 @@ body {
 h1 {
 color: gray; /*farbe von der schrift*/
 position: relative; /*position egal*/
-    top: -100px; /*100px nach oben*/
+top: -100px; /*100px nach oben*/
+left: 35%;
 }
 
 #RecentlySearched { /*style fur die schrift die weg geht*/
@@ -37,9 +38,9 @@ position: relative; /*position egal*/
     position: absolute;
     background: gray;
     color: black;
-    padding: 15px 20px;
+    padding: 20px 200px;
     border-radius: 15px;
     top: 100%;
     left: 33%;
-    margin-top: 10px;
+    margin-top: 80px;
 }

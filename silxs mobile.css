@@ -80,6 +80,10 @@
   }
 
     @media (max-width: 768px) {
+      button {
+        color: black;
+      }
+
  .mobile-aboutme{
   display: flex;
  }

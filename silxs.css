@@ -13,8 +13,9 @@ body {
     top: 0%; /*damit es am rand klebt*/
     left: 0%; /*damit die ecken am rand bleiben*/
     width: 122%; /*die breite von header*/
-    height: 13%; /*die grose des header*/
+    height: 23%; /*die grose des header*/
 }
+
 
 
 .logo {

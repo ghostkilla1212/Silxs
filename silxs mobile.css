@@ -33,11 +33,28 @@
 @media (max-width: 768px) {
     #myMenu {
         display: block; /*handy sichbar*/
+      position: relative;
+      z-index: 1;
     }
 
    #myMenu img{
     width: 30px;
     margin-left: 80%;
-    padding: 4%;
-   } 
-}
+    padding: 5%;
+   }
+   
+   #mobileMenuSidebar {
+    background-color: gray; /*hintergrund farbe*/
+    width: 70%; /*breite der sidebar*/
+    height: 300px; /*grose der sidebar*/
+    display: none;
+    position: relative;
+    z-index: 1;
+   }
+
+   #closeButton {
+    color: red;
+    padding: 102%;
+    font-size: 100%;
+   }
+  }

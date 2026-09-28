@@ -34,4 +34,10 @@
     #myMenu {
         display: block; /*handy sichbar*/
     }
+
+   #myMenu img{
+    width: 30px;
+    margin-left: 80%;
+    padding: 4%;
+   } 
 }

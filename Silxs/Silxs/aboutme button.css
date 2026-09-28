@@ -1,0 +1,18 @@
+button {
+    background-color: #0000; /*button hintergrund farbe*/
+    border: 1px solid #0000; /*border rand ausen*/
+    border-radius: 50%; /*runde ecken*/
+    cursor: pointer;
+    margin-left: 1%; /*abstand rand nach links*/
+    position: relative;
+    top: -30px; /*sorgt dafur das es in der mitte oder wo anders positoniert ist*/
+}
+
+
+img {
+    width: 150px; /*bild breite*/
+}
+
+
+
+

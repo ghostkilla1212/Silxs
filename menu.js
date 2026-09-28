@@ -6,3 +6,6 @@ myMenu.addEventListener("click", () => {
 
 
 const closeButton = document.getElementById("closeButton"); //id von button geholt
+closeButton.addEventListener("click", () => {
+    mobileMenuSidebar.style.display = "none" // sorgt dafur das die sidebar verschwindet
+});

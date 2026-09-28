@@ -40,21 +40,23 @@
    #myMenu img{
     width: 30px;
     margin-left: 80%;
-    padding: 5%;
+    padding: 7%;
    }
    
    #mobileMenuSidebar {
     background-color: gray; /*hintergrund farbe*/
     width: 70%; /*breite der sidebar*/
-    height: 300px; /*grose der sidebar*/
+    height: 400px; /*grose der sidebar*/
+    margin-left: 30%; /*sidebar links*/
     display: none;
     position: relative;
     z-index: 1;
    }
 
    #closeButton {
-    color: red;
-    padding: 102%;
-    font-size: 100%;
+    color: red; /*kreuz farbe*/
+    right: 3%; /*rects am rand*/
+    top: 380px; /*380px nach unten*/
+    font-size: 122%; /*grose vom kreuz*/
    }
   }

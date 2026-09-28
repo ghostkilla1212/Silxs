@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  min-height: 100vh;   /*entfernt den rand */
+  /* Verläuft von tiefem Schwarz (#000000) zu einem sehr dunklen Grau (#1e1e1e) */
+  background: linear-gradient(135deg, #000000, #1e1e1e);
+  background-attachment: fixed; /*sorgt dafur dass bei mobile kein zweiter hintergrund kommt*/
+}
+
+
+.header {
+    background: linear-gradient(135deg, rgba(128, 128, 128, 0.74), #1e1e1e); /*header hintergrund farbe*/
+    position: absolute; /*damit das absolote bleibt*/
+    top: 0%; /*damit es am rand klebt*/
+    left: 0%; /*damit die ecken am rand bleiben*/
+    width: 122%; /*die breite von header*/
+    height: 13%; /*die grose des header*/
+}
+
+
+.logo {
+    padding-left: 2%; /*rand rechts 2 prozent verschoben*/
+    width: 150px; /*breite des logos ist 128 px*/
+}
+
+h1 {
+color: gray; /*farbe von der schrift*/
+position: relative; /*position egal*/
+    top: -100px; /*100px nach oben*/
+}
+
+#RecentlySearched { /*style fur die schrift die weg geht*/
+    display: none;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    background: gray;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 15px;
+    top: 100%;
+    left: 33%;
+    margin-top: 10px;
+}

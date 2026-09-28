@@ -60,3 +60,33 @@
     font-size: 122%; /*grose vom kreuz*/
    }
   }
+
+  @media (max-width: 768px) {
+  .mobile-search input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5%;
+    outline: none;
+    background: #0000008c;
+      position: relative;
+    top: -27px;
+}
+
+  .mobile-search {
+   display: flex;
+}
+  }
+
+    @media (max-width: 768px) {
+ .mobile-aboutme{
+  display: flex;
+ }
+  }
+
+
+
+
+
+ 

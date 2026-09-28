@@ -48,3 +48,12 @@ left: 35%;
 #myMenu {
     display: none; /*pc bildschrim unsichbar*/
 }
+
+
+.mobile-search {
+    display: none; /*mobile searchbar fur pc unsichbar*/
+}
+
+.mobile-aboutme {
+    display: none; /*mobile aboutme fur pc unsichbar*/
+}

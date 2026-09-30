@@ -12,7 +12,7 @@ body {
     position: absolute; /*damit das absolote bleibt*/
     top: 0%; /*damit es am rand klebt*/
     left: 0%; /*damit die ecken am rand bleiben*/
-    width: 122%; /*die breite von header*/
+    width: 123%; /*die breite von header*/
     height: 13%; /*die grose des header*/
 }
 
@@ -23,10 +23,6 @@ body {
     width: 150px; /*breite des logos ist 128 px*/
 }
 
-.subtitle {
-color: black; /*farbe grau*/
-margin-left: 1%; /*2% nach links geschoben von rand*/
-}
 
 h1 {
 color: gray; /*farbe von der schrift*/

@@ -13,8 +13,9 @@ body {
     top: 0%; /*damit es am rand klebt*/
     left: 0%; /*damit die ecken am rand bleiben*/
     width: 122%; /*die breite von header*/
-    height: 13%; /*die grose des header*/
+    height: 12%; /*die grose des header*/
 }
+
 
 
 .logo {
@@ -25,7 +26,8 @@ body {
 h1 {
 color: gray; /*farbe von der schrift*/
 position: relative; /*position egal*/
-    top: -100px; /*100px nach oben*/
+top: -100px; /*100px nach oben*/
+left: 35%;
 }
 
 #RecentlySearched { /*style fur die schrift die weg geht*/
@@ -37,9 +39,22 @@ position: relative; /*position egal*/
     position: absolute;
     background: gray;
     color: black;
-    padding: 15px 20px;
+    padding: 20px 200px;
     border-radius: 15px;
     top: 100%;
     left: 33%;
-    margin-top: 10px;
+    margin-top: 80px;
+}
+
+#myMenu {
+    display: none; /*pc bildschrim unsichbar*/
+}
+
+
+.mobile-search {
+    display: none; /*mobile searchbar fur pc unsichbar*/
+}
+
+.mobile-aboutme {
+    display: none; /*mobile aboutme fur pc unsichbar*/
 }

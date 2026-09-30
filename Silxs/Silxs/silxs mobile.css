@@ -31,7 +31,69 @@
 
 
 @media (max-width: 768px) {
-   .menus {
-    
+    #myMenu {
+        display: block; /*handy sichbar*/
+        position: absolute;
+        top: 30px; /*nach unten*/
+        right: 12px; /*abstand rechts*/
+        z-index: 1;
+    }
+
+   #myMenu img{
+    display: block;
+    width: 30px;
+    margin: 0;
+    padding: 0;
    }
+   
+   #mobileMenuSidebar {
+    background-color: gray; /*hintergrund farbe*/
+    width: 70%; /*breite der sidebar*/
+    height: 400px; /*grose der sidebar*/
+    margin-left: 30%; /*sidebar links*/
+    display: none;
+    position: relative;
+    z-index: 1;
+   }
+
+   #closeButton {
+    color: red; /*kreuz farbe*/
+    right: 3%; /*rects am rand*/
+    top: 380px; /*380px nach unten*/
+    font-size: 122%; /*grose vom kreuz*/
+   }
+  }
+
+  @media (max-width: 768px) {
+  .mobile-search input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5%;
+    outline: none;
+    background: #0000008c;
+      position: relative;
+    top: -27px;
 }
+
+  .mobile-search {
+   display: flex;
+}
+  }
+
+    @media (max-width: 768px) {
+      button {
+        color: black;
+      }
+
+ .mobile-aboutme{
+  display: flex;
+ }
+  }
+
+
+
+
+
+ 

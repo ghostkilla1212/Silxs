@@ -13,7 +13,7 @@ body {
     top: 0%; /*damit es am rand klebt*/
     left: 0%; /*damit die ecken am rand bleiben*/
     width: 122%; /*die breite von header*/
-    height: 12%; /*die grose des header*/
+    height: 13%; /*die grose des header*/
 }
 
 
@@ -21,6 +21,11 @@ body {
 .logo {
     padding-left: 2%; /*rand rechts 2 prozent verschoben*/
     width: 150px; /*breite des logos ist 128 px*/
+}
+
+.subtitle {
+color: black; /*farbe grau*/
+margin-left: 1%; /*2% nach links geschoben von rand*/
 }
 
 h1 {

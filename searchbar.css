@@ -1,6 +1,6 @@
 .search-bar {
   position: relative;
-  background: gray;
+  background: white;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -20,7 +20,6 @@
   border: none;
   outline: none;
   color: var(--text);
-  padding: 10px 14px;
 }
 
 .search-button {

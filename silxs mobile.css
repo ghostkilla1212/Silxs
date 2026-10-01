@@ -93,6 +93,12 @@
  }
   }
 
+@media (max-width: 768px) {
+     #closeButton {
+    display: block; /*close button fur mobile sichbar*/
+  }
+}
+
 
 
 

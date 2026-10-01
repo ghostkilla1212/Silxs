@@ -12,15 +12,17 @@ body {
     position: absolute; /*damit das absolote bleibt*/
     top: 0%; /*damit es am rand klebt*/
     left: 0%; /*damit die ecken am rand bleiben*/
-    width: 123%; /*die breite von header*/
+    width: 100%; /*die breite von header*/
     height: 14%; /*die grose des header*/
+    position: sticky; /*damit es beim scrollen klebt*/
 }
 
 
 
 .logo {
-    padding-left: 2%; /*rand rechts 2 prozent verschoben*/
-    width: 150px; /*breite des logos ist 128 px*/
+    padding-left: 1%; /*rand rechts 1 prozent verschoben*/
+    width: 140px; /*breite des logos ist 128 px */
+    height: 100%; /*die grose des logos ist 100%*/
 }
 
 
@@ -58,4 +60,8 @@ left: 35%;
 
 .mobile-aboutme {
     display: none; /*mobile aboutme fur pc unsichbar*/
+}
+
+#closeButton {
+    display: none; /*close button fur pc unsichbar*/
 }

@@ -5,12 +5,12 @@ button {
     cursor: pointer;
     margin-left: 1%; /*abstand rand nach links*/
     position: relative;
-    top: -30px; /*sorgt dafur das es in der mitte oder wo anders positoniert ist*/
+    top: -3px; /*sorgt dafur das es in der mitte oder wo anders positoniert ist*/
 }
 
 
 img {
-    width: 150px; /*bild breite*/
+    width: 149px; /*bild breite*/
 }
 
 

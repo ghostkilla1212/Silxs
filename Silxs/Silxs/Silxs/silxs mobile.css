@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  body {
+     background: linear-gradient(135deg, #000000, #1e1e1e); /*hintertgrund mobile header */
+    background-attachment: fixed; /*sorgt dafur dass bei mobile kein zweiter hintergrund kommt*/
+  }
+
+  .header {
+    position: absolute; /*damit es absolute bleibt*/
+    width: 100%; /*breite fur mobile*/
+    padding: 1px 0; /*abstand grose*/
+  }
+
+  .logo {
+    padding-left: 1; /*rand abstand links*/
+    width: 90px; /*logo breite*/
+  }
+}
+
+@media (max-width: 768px) {  /*zeigt kein bild an bei mobile*/
+    button img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .search-bar{
+    display: none !important; /*zeigt die searchbar auf handy nicht an*/
+    }
+}
+
+
+@media (max-width: 768px) {
+   .menus {
+    
+   }
+}

@@ -21,8 +21,9 @@ body {
 
 .logo {
     padding-left: 1%; /*rand rechts 1 prozent verschoben*/
-    width: 140px; /*breite des logos ist 128 px */
-    height: 100%; /*die grose des logos ist 100%*/
+    width: 130px; /*breite des logos ist 128 px */
+     position: relative; /*relativ egal*/
+    top: 20px ; /*nach unten 20px*/
 }
 
 

@@ -30,8 +30,8 @@ body {
 h1 {
 color: gray; /*farbe von der schrift*/
 position: relative; /*position egal*/
-top: -100px; /*100px nach oben*/
-left: 35%;
+top: -120px; /*100px nach oben*/
+left: 43%; /*43% nach links*/
 }
 
 #RecentlySearched { /*style fur die schrift die weg geht*/
@@ -39,15 +39,17 @@ left: 35%;
 }
 
 #popup {
-    display: none;
-    position: absolute;
-    background: gray;
-    color: black;
-    padding: 20px 200px;
-    border-radius: 15px;
-    top: 100%;
-    left: 33%;
-    margin-top: 80px;
+    display: none; /*popup unsichtbar*/
+    position: fixed; /*damit es immer sichtbar ist*/
+    position: absolute; /*damit es immer sichtbar ist*/
+    background: gray; /*hintergrund farbe*/
+    color: black; /*text farbe*/
+    padding: 20px 200px; /*padding grose*/
+    border-radius: 15px; /*runde ecken*/
+    top: 20%; /*nach unten 20%*/
+    left: 40%; /*nach links 40%*/
+    margin-top: 80px; /*nach unten 80px*/
+    width: 30px; /*breite des popups*/
 }
 
 #myMenu {

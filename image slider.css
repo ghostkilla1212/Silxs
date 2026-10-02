@@ -1,4 +1,4 @@
-.pictures-box {
+.image-slider {
     border: 2px solid gray; /*umrandung vom rand*/
     position: absolute; /*position absolute*/
     width: 900px; /*breite 900px*/
@@ -10,7 +10,7 @@
     transform: translate(-50%, -5%); /*damit es in der mitte ist*/
 }
 
-.pictures-box img {
+.image-slider img {
     width: 100%; /*bilder breite*/
     height: 100%; /*bilder hoehe*/
     object-fit: cover; 

@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('.pictures-box img')
+const images = document.querySelectorAll('.image-slider img')
 let currentIndex = 0
 
 images[currentIndex].style.display = "inline"

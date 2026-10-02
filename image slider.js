@@ -3,7 +3,13 @@ let currentIndex = 0
 
 images[currentIndex].style.display = "inline"
 
-setInterval(function () {
+let timerId;
+
+timerId = setInterval(function () {
+    document.getElementById("stopButton").addEventListener("click", function() {
+        clearInterval(timerId);
+        timerId = null;
+    })
 
     images.forEach (
         function (img) {

@@ -99,6 +99,36 @@
   }
 }
 
+@media (max-width: 768px) {
+.image-slider {
+    border: 2px solid gray; /*umrandung vom rand*/
+    position: absolute; /*position absolute*/
+    width: 400px; /*breite 400px*/
+    height: 300px; /*hoehe 300px*/
+    overflow: hidden;/*damit die umrandung gut ausseiht*/
+    border-radius: 15px; /*runde ecken*/
+    left: 50%; /*damit es in der mitte ist*/
+    top: 119%; /*damit es in der mitte ist*/
+    transform: translate(-50%, -5%); /*damit es in der mitte ist*/
+}
+
+.image-slider img {
+    width: 100%; /*bilder breite*/
+    height: 100%; /*bilder hoehe*/
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+       #stopButton {
+    display: block; /*close button fur mobile sichbar*/
+  }
+}
+
+     #stopButton img {
+    display: block; /*close button fur mobile sichbar*/
+  }
+}
+
 
 
 

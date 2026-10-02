@@ -6,7 +6,7 @@
     overflow: hidden;/*damit die umrandung gut ausseiht*/
     border-radius: 15px; /*runde ecken*/
     left: 50%; /*damit es in der mitte ist*/
-    top: 119%; /*damit es in der mitte ist*/
+    top: 140%; /*damit es in der mitte ist und abstand*/
     transform: translate(-50%, -5%); /*damit es in der mitte ist*/
 }
 
@@ -18,9 +18,9 @@
 
 #stopButton {
     position: absolute; /*position absolute*/
-    top: 330%; /*damit es in der mitte ist*/
+    top: 50%; /*damit es in der mitte ist*/
     left: 45%; /*damit es in der mitte is*/
-    right: 92%; /*damit es in der mitte is*/
+    right: 45%; /*damit es in der mitte is*/
     cursor: pointer;
 }
 

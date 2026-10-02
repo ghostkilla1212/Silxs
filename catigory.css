@@ -1,0 +1,17 @@
+.catigory-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  top: 900px;
+}
+
+.catigory-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}

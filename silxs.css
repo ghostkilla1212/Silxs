@@ -14,7 +14,7 @@ body {
     left: 0%; /*damit die ecken am rand bleiben*/
     width: 100%; /*die breite von header*/
     height: 14%; /*die grose des header*/
-    position: sticky; /*damit es beim scrollen klebt*/
+    position: absolute; /*damit es beim scrollen klebt*/
 }
 
 

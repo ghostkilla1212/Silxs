@@ -52,6 +52,7 @@
     width: 70%; /*breite der sidebar*/
     height: 400px; /*grose der sidebar*/
     margin-left: 30%; /*sidebar links*/
+    top: -700%; /*970% nach oben*/
     display: none;
     position: relative;
    }
@@ -135,7 +136,7 @@
   display: flex; /*display flexibel*/
  justify-content: center; /*zentriert die buttons*/
   position: relative; /*position relativ*/
-  top: 400px; /*nach unten 500px*/
+  top: 500px; /*nach unten 500px*/
 }
 
 .catigory-button {
@@ -147,7 +148,7 @@
   border: none; /*kein rand*/
   border-radius: 20px; /*runder button*/
   padding: 1px 8px; /*abstand innerhalb des buttons*/
-  margin: 0 10px; /*abstand zwischen den buttons*/
+  margin: 0 2px; /*abstand zwischen den buttons*/
   cursor: pointer; 
   transition: transform 0.2s ease; /*animation*/
 }

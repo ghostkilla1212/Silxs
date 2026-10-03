@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  min-height: 200vh;   /*genug Seitenhoehe fuer den absolut positionierten Slider*/
+  min-height: 100vh;   /*genug Seitenhoehe fuer den absolut positionierten Slider*/
   /* Verläuft von tiefem Schwarz (#000000) zu einem sehr dunklen Grau (#1e1e1e) */
   background: linear-gradient(135deg, #000000, #1e1e1e);
   background-attachment: fixed; /*sorgt dafur dass bei mobile kein zweiter hintergrund kommt*/

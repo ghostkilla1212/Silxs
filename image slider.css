@@ -10,7 +10,7 @@
     transform: translate(-50%, -5%); /*damit es in der mitte ist*/
 }
 
-.image-slider img {
+.image-slider  img {
     width: 100%; /*bilder breite*/
     height: 100%; /*bilder hoehe*/
     object-fit: cover; 
@@ -18,13 +18,12 @@
 
 #stopButton {
     position: absolute; /*position absolute*/
-    top: 50%; /*damit es in der mitte ist*/
-    left: 45%; /*damit es in der mitte is*/
-    right: 45%; /*damit es in der mitte is*/
+    top: 103%; /*damit der oben ist*/
+    left: 50%; /*damit es in der mitte is*/
     cursor: pointer;
 }
 
 #stopButton img {
-    width: 70px; /*breite vom button*/
-    height: 70px; /*hoehe vom button*/
+    width: 44px; /*breite vom button*/
+    height: 44px; /*hoehe vom button*/
 }

@@ -121,6 +121,7 @@
 @media (max-width: 768px) {
        #stopButton {
     display: block; /*close button fur mobile sichbar*/
+    top: 119%;
   }
 }
 

@@ -18,8 +18,10 @@
 
 #stopButton {
     position: absolute; /*position absolute*/
-    top: 103%; /*damit der oben ist*/
-    left: 50%; /*damit es in der mitte is*/
+    top: 140%; /*nach unten 140%*/
+    left: calc(50% + min(450px, 45vw));
+    transform: translateX(-100%); /*damit der button zentriert ist*/
+    z-index: 1;
     cursor: pointer;
 }
 

@@ -145,7 +145,7 @@
   color: rgba(255, 255, 255, 0.589); /*text farbe*/
   border: none; /*kein rand*/
   border-radius: 20px; /*runder button*/
-  padding: 1px 10px; /*abstand innerhalb des buttons*/
+  padding: 1px 8px; /*abstand innerhalb des buttons*/
   margin: 0 10px; /*abstand zwischen den buttons*/
   cursor: pointer; 
   transition: transform 0.2s ease; /*animation*/
